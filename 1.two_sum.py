@@ -8,7 +8,7 @@ class Solution(object):
 
         hashmap = dict()
         
-        # Iterate an nums array
+        # Iterate a nums array
         for index, element in enumerate(nums):
             diff = target - element
             if diff in hashmap:
@@ -19,6 +19,6 @@ class Solution(object):
 
 # create a hashmap
 # loop over the array
-# get the element oand its index
-# computer the complimnet ie target - the value
-# if the diff is in hashmap then retun indexes else add the element to hashmap
+# get the element and its index
+# computer the diff ie target - the value
+# If the diff is in hashmap then return indexes else add the element to hashmap
