@@ -8,7 +8,7 @@ class Solution(object):
         hashmap_s = dict()
         hashmap_t = dict()
 
-        # Checks the lenght of the strings
+        # Checks the length of the strings
         if len(s) != len(t):
             return False
 
@@ -31,7 +31,7 @@ class Solution(object):
 
 
 # First check the length of both strings
-# Create an empty hashmap for both the strings
+# Create an empty hashmap for both strings
 # Check the count of letters in each string
 # If the count of chars matches then return True else False
 
