@@ -8,7 +8,7 @@ class Solution(object):
 
         for i in nums:
             if i in hashmap:
-                del hashmap[i]
+                hashmap[i] += 1
             else:
                 hashmap[i] = 1
         
